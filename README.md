@@ -38,13 +38,13 @@ python src/train.py
 To evaluate a trained model:
 ```bash
 python evaluate.py --model_path checkpoints/vit_model.pth
-```
+``` -->
 
 ### Inference
 To use the trained model for inference on a single image:
 ```bash
 python inference.py --image_path path/to/image.jpg
-``` -->
+```
 
 ## Model Architecture
 ![vit_figure.png](/vit_figure.png)
