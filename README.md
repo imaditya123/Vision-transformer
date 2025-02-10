@@ -47,6 +47,8 @@ python inference.py --image_path path/to/image.jpg
 ``` -->
 
 ## Model Architecture
+![vit_figure.png](/vit_figure.png)
+
 - **Patch Embedding**: Splits input images into fixed-size patches and embeds them into a lower-dimensional space.
 - **Position Embeddings**: Adds positional encodings to preserve spatial relationships.
 - **Transformer Encoder**: Consists of multiple self-attention layers and feed-forward networks.
